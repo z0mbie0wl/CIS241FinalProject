@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Sierra Clayton">
+	<meta name="keywords" content="HTML, CSS">
+	<meta name="description" content="Web Dev 1 Portfolio Project">
+	<meta name="robots" content="noindex">
+	
+	<link rel="stylesheet" type="text/css" href="../css/myStyle.css"/>
+	<title>Guest Book</title>
+</head>
+<body>
+	<div id="page-container" style="background-color: #FBF5FF;">
+		<nav>
+			<div class="bar" style="background-color: #D29ADB;">
+				<img height="50" width="50" src="../images/sc.png" alt="SC"/>
+				<div class="navigation">
+					<a href="../html/home.html">Home</a>
+					<a href="../html/resume.html">Resume</a>
+					<a href="../html/interests.html">Interests</a>
+					<a href="../html/reflections.html">Reflections</a>
+					<a href="../html/guestbook.html">Guestbook</a>
+				</div>
+			</div>
+		</nav>
+
+		<div id="page-location">
+			<h1 style="text-align: center;">Guest Book</h1>
+		</div>
+
+		<br/>
+
+		<div style="margin: 10px;">
+			<form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+			Enter Your Name:<br/> 
+			<input type="text" name="Name" size="40"/>
+
+			<br/>
+			<br/>
+
+			How did you find my website?
+			<br/>
+			<select name="website">
+				<option>Select one</option>
+				<option>Surfed In</option>
+				<option>Word of Mouth</option>
+				<option>Search Engine</option>
+				<option>A Friend Sent Me</option>
+				<option>Other</option>
+			</select>
+	
+			<br/>
+			<br/>
+		
+			Do you have a website? Enter it below:<br/>
+			<input type="text" name="website" size="40" value="http://"/>
+	
+			<br/>
+			<br/>
+	
+			Comments:<br/>
+			<textarea name="comments" cols="50" rows="6">Enter your message here.
+			</textarea>
+	
+			<br/>
+			<br/>
+	
+			<input type="submit" value="submit"/>
+			<input type="reset"/>
+	
+			</form>
+		</div>
+	</div>	
+</body>
+</html>	
